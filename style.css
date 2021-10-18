@@ -35,9 +35,8 @@ body {
   align-items: center;
 }
 
-.innerbox {
-  border: 1px solid black;
-  border-radius: 5px;
+.content {
+  text-align: left;
 }
 
 .box {
@@ -51,8 +50,9 @@ body {
     "title title"
     "slide slide"
     "content content"
-    "demo demo";
-  gap: 10px;
+    "demo demo"
+    "html html";
+  gap: 20px;
   box-shadow: 0 0 5px 10px #777;
   max-width: 90%;
 }
@@ -83,4 +83,12 @@ body {
   border-radius: 5px;
   border: 5px solid blue;
   box-shadow: 0 0 5px 5px rgb(204, 195, 195);
+}
+
+.show-inner-html {
+  grid-area: html;
+}
+
+.inner-html {
+  font-size: 1.25rem;
 }
